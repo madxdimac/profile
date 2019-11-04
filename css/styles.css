@@ -7,7 +7,7 @@ html, body {
 #navigation {
   font-size: 1.2rem;
   margin: 0 0;
-  padding: 0% 25%;
+  padding: 0% 15%;
 }
 
 /*.navbar {
@@ -37,7 +37,7 @@ html, body {
 /***   HEADER SECTION   ***/
 #header{
   text-align: center;
-  padding: 0% 25%;
+  padding: 0% 15%;
 }
 
 #site-blurb {
