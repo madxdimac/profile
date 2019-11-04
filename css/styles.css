@@ -1,44 +1,21 @@
-/* Color Palette: 17117 #08d9d6, #252a34, #ff2e63, #eaeaea */
-body {
+html, body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #222427;
 }
 
-/* HEADINGS */
-.title-heading {
-  font-size: 3.5rem;
-  font-weight: 900;
-  /*black*/
+/***   NAVIGATION SECTION   ***/
+#navigation {
+  font-size: 1.2rem;
+  margin: 0 0;
+  padding: 0% 25%;
 }
 
-.subtitle-heading {
-  font-size: 2.5rem;
-  font-weight: 700;
-  /*bold*/
-}
-
-/* CONTAINERS */
-.container-fluid {
-  padding: 3% 15%;
-}
-
-/* SITE SECTIONS */
-.colored-bg {
-  background-color: #08d9d6;
-  color: white;
-}
-
-.white-bg {
-  background-color: white;
-}
-
-/* NAVIGATION BAR */
-.navbar {
+/*.navbar {
   padding: 0 0 4.5rem;
-}
+}*/
 
 .navbar-brand {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -47,46 +24,109 @@ body {
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  font-weight: 300;
+  font-size: 1.0rem;
+  font-weight: 500;
 }
 
 .nav-link:hover {
   color: white !important;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
-/* Section List*/
-.resume-section-icon {
-  color: #ff2e63;
+/***   HEADER SECTION   ***/
+#header{
+  text-align: center;
+  padding: 0% 25%;
+}
+
+#site-blurb {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/***   SITE PAGES SECTION   ***/
+#site-pages {
+  padding: 0% 15%;
+  padding-bottom: 8%;
+  text-align: center;
+}
+
+.site-pages-icon {
+  color: #ed553b;
   font-size: 5rem;
   margin-bottom: 1rem;
 }
 
-.resume-section-icon:hover {
-  color: #08d9d6;
+.site-pages-icon:hover {
+  color: #222427;
+  font-size: 6rem;
 }
 
-.resume-section-description {
+.site-pages-description {
   font-size: 1.0rem;
   color: grey;
-}
-
-#resume-sections {
-  padding: 7% 5%;
+  padding: 1% 5%;
   text-align: center;
 }
 
-/* Footer */
-.copywright {
+.site-pages-link {
+   color: #ed553b;
+   font-size: 3rem;
+}
+
+.site-pages-link:hover {
+   color: #222427;
+   font-size: 4rem;
+
+   text-decoration: none;
+}
+
+/***   FOOTER SECTION   ***/
+.footer {
   font-size: 0.75rem;
-  margin-bottom: 0;
   text-align: center;
+  padding: 0;
+}
+#copywright {
+  margin-bottom: 0;
 }
 
-#footer {
-  margin-bottom: 0;
+/***   BACKGROUND COLORS   ***/
+.feature-color-bg {
+  background-color: #ed553b;
+  color: white;
+}
+
+.accent-color-bg {
+  background-color: #222427;
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+  color: #222427;
+}
+
+.my-btn {
+  background-color: #222427;
+}
+
+/***   HEADINGS   ***/
+.title-heading {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.subtitle-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/***   CONTAINERS   ***/
+.container-fluid {
+  padding: 3% 15%;
 }
 
 /* MESSAGE: FORM */
@@ -99,9 +139,6 @@ body {
   padding: 3% 25%
 }
 
-/*#about-martial {
-  background-color: #ff2e63;
-}*/
 .warning {
   color: #ff2e63;
   font-weight: 900;
